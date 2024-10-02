@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/bgimg.jpg');
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.menu{
+    border: 5px solid black;
+}
+
+.menu-title{
+    margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: #FFE0B5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.categ-img1{
+    width: 40px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.categ-img2{
+    width: 70px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.item{
+    display: flex;
+}
+
+.item p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.address {
+  margin: 10px 0;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
